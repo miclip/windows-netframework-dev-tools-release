@@ -40,7 +40,7 @@ function system-cmd {
 conditional-package-prepend-path "unzip\bin"
 conditional-package-prepend-path "git\bin"
 
-Invoke-WebRequest https://chocolatey.org/install.ps1 -UseBasicParsing | Invoke-Expression
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 choco install powershell-packagemanagement -y
 choco install visualstudio2017community -y
