@@ -1,0 +1,7 @@
+# -*-powershell-*-
+
+Set-PSDebug -trace 1            # "set -x"
+Set-PSDebug -strict             # "set -u"
+$ErrorActionPreference = "Stop" # "set -e"
+
+copy-item "prelude.ps1" "$($env:BOSH_INSTALL_TARGET)"
