@@ -43,7 +43,7 @@ conditional-package-prepend-path "git\bin"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 Set-ExecutionPolicy Bypass -Scope Process -Force
-Invoke-WebRequest https://chocolatey.org/install.ps1 -UseBasicParsing | Invoke-Expression
+Invoke-WebRequest https://chocolatey.org/install.ps1 -UseBasicParsing | Invoke-Expression && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
 choco install powershell-packagemanagement -y
 choco install visualstudio2017community -y
