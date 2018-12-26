@@ -1,0 +1,27 @@
+name: windows-netframework-dev-tools
+version: "1"
+commit_hash: 5dc2484
+uncommitted_changes: false
+jobs:
+- name: windows-netframework-dev-tools
+  version: f598d560f74a369c391c3dc4fe024699e9b10830
+  fingerprint: f598d560f74a369c391c3dc4fe024699e9b10830
+  sha1: 828980b3dcae7d9e67e1948bf1f8fa5a74249505
+packages:
+- name: git
+  version: 85c19f15c35056d4f969deafc4e357bf5a5c2f73
+  fingerprint: 85c19f15c35056d4f969deafc4e357bf5a5c2f73
+  sha1: f584bf83873ea3b33ecedbd9fed5d9a2d4a02c15
+  dependencies:
+  - windows-netframework-dev-tools
+- name: unzip
+  version: e3baa0fb3d5c57d8b09361ba2919b353b1b1ec72
+  fingerprint: e3baa0fb3d5c57d8b09361ba2919b353b1b1ec72
+  sha1: b5625bfc352de4e8cefc7cee63a350b03c07b902
+  dependencies:
+  - windows-netframework-dev-tools
+- name: windows-netframework-dev-tools
+  version: 512ca5a98bc0a2b86c84f8f1ed68461384ba33cf
+  fingerprint: 512ca5a98bc0a2b86c84f8f1ed68461384ba33cf
+  sha1: d73fdfdd21ba2f33dfc7ca0e21abbd87f6a41caf
+  dependencies: []
