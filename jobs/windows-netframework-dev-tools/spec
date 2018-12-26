@@ -1,0 +1,12 @@
+---
+name: windows-netframework-dev-tools
+
+templates: {}
+
+packages:
+- windows-netframework-dev-tools
+- unzip
+- git
+
+properties: {}
+
