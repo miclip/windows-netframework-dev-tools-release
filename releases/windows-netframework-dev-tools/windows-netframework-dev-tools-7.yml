@@ -1,0 +1,9 @@
+name: windows-netframework-dev-tools
+version: "7"
+commit_hash: 192c783
+uncommitted_changes: false
+jobs:
+- name: windows-netframework-dev-tools
+  version: d10943d78ab0baa83fa6e605b4d61f96f051be12
+  fingerprint: d10943d78ab0baa83fa6e605b4d61f96f051be12
+  sha1: 6f7b42fb7a32897a1ece13f07f481146cf4d424e
