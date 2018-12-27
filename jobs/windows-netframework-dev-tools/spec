@@ -3,8 +3,8 @@ name: windows-netframework-dev-tools
 
 templates: 
   pre-start.ps1: bin/pre-start.ps1
-  
-packages:[]
+
+packages:{}
 
 properties: {}
 
