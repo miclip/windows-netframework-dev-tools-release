@@ -1,8 +1,0 @@
----
-name: git
-
-dependencies:
-  - windows-netframework-dev-tools
-
-files:
-  - git-2.12.0/PortableGit-2.12.0-64-bit.7z.exe # https://github.com/git-for-windows/git/releases/download/v2.12.0.windows.1/PortableGit-2.12.0-64-bit.7z.exe sha256=5bebd0ee21e5cf3976bc71826a28b2663c7a0c9b5c98f4ab46ff03c3c0d3556f

@@ -1,12 +1,10 @@
 ---
 name: windows-netframework-dev-tools
 
-templates: {}
-
-packages:
-- windows-netframework-dev-tools
-- unzip
-- git
+templates: 
+  pre-start.ps1: bin/pre-start.ps1
+  
+packages:[]
 
 properties: {}
 

@@ -1,8 +1,0 @@
-# -*-yaml-*-
----
-name: windows-netframework-dev-tools
-
-dependencies: []
-
-files:
-  - prelude.ps1
