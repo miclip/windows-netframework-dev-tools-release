@@ -1,4 +1,4 @@
-# Windows .NET Framework Dev Tools-Release
+# Windows .NET Framework Dev Tools Release
 
 This is a [BOSH](https://bosh.io) release to install .NET development tools on a Windows stemcell for .NET development. Primarily for use with bosh managed Concourse.
 
@@ -6,9 +6,9 @@ This is a [BOSH](https://bosh.io) release to install .NET development tools on a
 
 - [Chocolatey](https://chocolatey.org/) 
 - [Powershell-PackageManagement](https://www.powershellgallery.com/packages/PackageManagement/1.1.7.2)
-- [Visual studio 2017 community](https://visualstudio.microsoft.com/vs/community/)
+- [Visual Studio 2017 Community](https://visualstudio.microsoft.com/vs/community/)
 - [Visual Studio 2017 dotnet core tools](https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community?view=vs-2017#net-core-cross-platform-development)
-- [Visual Studio2017 .NET Web](https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community?view=vs-2017#aspnet-and-web-development)
+- [Visual Studio 2017 .NET Web](https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community?view=vs-2017#aspnet-and-web-development)
 - [Visual Studio 2017 Node.js](https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community?view=vs-2017#nodejs-development) 
 - [Visual Studio 2017 Azure](https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community?view=vs-2017#azure-development)
 - [Visual Studio 2017 Native Desktop](https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community?view=vs-2017#desktop-development-with-c)
